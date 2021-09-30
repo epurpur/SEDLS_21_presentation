@@ -1,30 +1,35 @@
 ---
-title: "SEDLS_2021_presentation"
+title: "SEDLS_2021_Presentation"
 author: "Jenn Huck, Sherry Lake, Erich Purpur"
-date: "10/13/2021"
-output: html_document
+date: "9/30/2021"
+output: slidy_presentation
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Intro Slide
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Welcome to our presentation
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Environment
 
-```{r cars}
-summary(cars)
-```
+About UVA
 
-## Including Plots
+## What we did
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## How we did it
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## How you can do it
+
+
+## Feedback and Assessment
+
+
+## Looking Forward
+
+
+## Conclusion
