@@ -35,6 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
 UVA has about 17,000 undergrads and 6,000 grad students. UVA has 12 schools.
 
 WHAT ELSE TO INCLUDE HERE?
+Sherry Adding some notes to test editing Rmd file
 :::
 
 
@@ -174,5 +175,16 @@ I (Jenn) would consider trying to take this to specific departments, reach out t
   </div>
 </center>
 
+##
+<center>
+  <h1 style="font-size:75px">References</h1>
+  <div>
+  
+Higman, Rosie, Daniel Bangert, and Sarah Jones. 2019. “Three Camps, One Destination: The Intersections of Research Data Management, FAIR and Open”. Insights 32 (1): 18. DOI: http://doi.org/10.1629/uksg.468
+      
+  </div>
+</center>
 
-
+::: {.notes}
+More notest to test with
+:::
