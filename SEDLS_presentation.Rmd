@@ -1,12 +1,16 @@
 ---
 title: 'Practical Reproducibility Instruction: Teaching Reproducibility with Technical
   and Non-Technical Tools'
-author: "Jenn Huck, Sherry Lake, Erich Purpur"
+author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
   ioslides_presentation: default
   beamer_presentation: default
+bibliography: sedls.bib  
 link-citations: yes
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
@@ -17,174 +21,170 @@ knitr::opts_chunk$set(echo = FALSE)
   .note {
     font-size: 50%;
   }
+  .references {
+    font-size: 70%;
+  }
 </style>
 
-## 
+## Slides Usage Notes 
+
+- Recommended to press `w` for widescreen view.
+- Also recommended to press `f` for fullscreen view.
+- Press `p` for Presenter Notes.
+- These slides are licensed as CC-BY.
+
+
+## About UVA
+
+-   About 23,000 students
+-   12 Schools
+-   ???
+
 <center>
-<h1 style="font-size:75px">About UVA</h1>
-![](images/UVA.png){width=400px}
-  <div>
-    - About 23,000 students
-    - 12 Schools
-    - ???
-  </div>
+
+![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
 
 </center>
 
 ::: {.notes}
-UVA has about 17,000 undergrads and 6,000 grad students. UVA has 12 schools.
+UVA has about 17,000 undergrads and 6,000 grad students. UVA has 12
+schools.
 
-WHAT ELSE TO INCLUDE HERE?
-Sherry Adding some notes to test editing Rmd file
+WHAT ELSE TO INCLUDE HERE? Sherry Adding some notes to test editing Rmd
+file
 :::
 
+## What we did
 
+'Reproducible Research for Early Graduate Students' workshop series
 
-## 
-<center>
-  <h1 style="font-size:75px">What we did</h1>
-  <div>
-  
-    - 'Reproducible Research for Early Graduate Students' workshop series
-    - Included technical and non-technical sessions
-    
-    Technical sessions:
-      - Version Control with Git/Github
-      - Reproducible Analysis and Documentation in RStudo/Rmarkdown
-    
-    Non-Technical sessions:
-      - Organize for Transparent and Reproducible Research
-      - Sharing Your Data for Transparent and Reproducible Research
-  </div>
-
-</center>
+- Included technical and non-technical sessions: 
+  - Technical sessions: 
+    - Version Control with Git/Github 
+    - Reproducible Analysis and Documentation in RStudio/Rmarkdown 
+  - Non-Technical sessions: 
+    - Organize for Transparent and Reproducible Research 
+    - Sharing Your Data for Transparent and Reproducible Research
 
 ::: {.notes}
-UVA Library's Research Data Services (RDS) launched a new workshop series called "Reproducible Research for Early Graduate Students". The four workshops in the series focused on both technical and non-technical tools for reproducible research. The overall concept was to enable researchers to improve data use and re-use for collaborators and themselves, use available technical tools to create reproducible workflows, and more easily communicate and disseminate findings and data. The target audience are students in STEM departments. 
+UVA Library's Research Data Services (RDS) launched a new workshop
+series called "Reproducible Research for Early Graduate Students". The
+four workshops in the series focused on both technical and non-technical
+tools for reproducible research. The overall concept was to enable
+researchers to improve data use and re-use for collaborators and
+themselves, use available technical tools to create reproducible
+workflows, and more easily communicate and disseminate findings and
+data. The target audience are students in STEM departments.
 
-Our technical sessions covered tools and workflow on topics such as version control with Git and Github and R Studio/R Markdown tools.
+Our technical sessions covered tools and workflow on topics such as
+version control with Git and Github and R Studio/R Markdown tools.
 
-Our non-technical sessions covered file and metadata organization and data sharing. 
+Our non-technical sessions covered file and metadata organization and
+data sharing.
 :::
 
+## How we did it
 
-## 
-<center>
-  <h1 style="font-size:75px">How we did it</h1>
-  <div>
-  
-    - Launched mini-series as part of ongoing workshop series
-  
-    - Leveraged our staff's skillset
-  
-    - Some new, some old sessions
-    
-  </div>
-</center>
+-   Launched mini-series as part of ongoing workshop series
+-   Leveraged our staff's skillset
+-   Some new, some old sessions
 
 ::: {.notes}
-Each semester, our Research Data Services group teaches a workshop series, taught by our staff as well as collaborators in other groups around the university. We offer sessions and trainings on technical topics of interest to our user community. We offer several mini-series within our workshop series such as this one and others including both the R and Python languages, Qualitative Research, Tableau, etc. 
+Each semester, our Research Data Services group teaches a workshop
+series, taught by our staff as well as collaborators in other groups
+around the university. We offer sessions and trainings on technical
+topics of interest to our user community. We offer several mini-series
+within our workshop series such as this one and others including both
+the R and Python languages, Qualitative Research, Tableau, etc.
 
-Our offerings are determined by a combination of demand by our constituents and skills of our team members. Some of the sessions in our reproducibility series (non-technical and conceptual sessions), one was an existing workshop (version control), and one was a mashup of old and new content (RStudio/RMarkdown)
+Our offerings are determined by a combination of demand by our
+constituents and skills of our team members. Some of the sessions in our
+reproducibility series (non-technical and conceptual sessions), one was
+an existing workshop (version control), and one was a mashup of old and
+new content (RStudio/RMarkdown)
 :::
 
+## How you can do it
 
-##
-<center>
-  <h1 style="font-size:75px">How you can do it</h1>
-  <div>
-  
-  
-  
-    - Take our stuff!
-    
-    - Re-brand existing workshops/classes at your library
-    
-    - Look for partners at your institution to partner with
-    
-    - You don't need to be an expert
-    
-  </div>
-</center>
+-   Take our stuff!
+-   Re-brand existing workshops/classes at your library
+-   Look for partners at your institution to partner with
+-   You don't need to be an expert
 
 ::: {.notes}
-Our data, code, and more information is openly available. Take our stuff! We have put open licenses on all the materials we post. There is no need to create all the materials from scratch. The current version control workshop is a combination of previous workshop materials plus online content that someone else created. 
+Our data, code, and more information is openly available. Take our
+stuff! We have put open licenses on all the materials we post. There is
+no need to create all the materials from scratch. The current version
+control workshop is a combination of previous workshop materials plus
+online content that someone else created.
 
-Look around for existing workshops at your library to market or re-brand to fit into a reproducibility theme. Are you already doing things you could use for this purpose?
+Look around for existing workshops at your library to market or re-brand
+to fit into a reproducibility theme. Are you already doing things you
+could use for this purpose?
 
-Look for partners to collaborate on a series of reproducibility. One person does not and should not have to do it all! We partner with other library colleagues and other departments entirely at the University to offer guest-taught workshops in our series. For example, we collaborate with people like Sherry, who is not a part of Research Data Services and also our Health Sciences library and Research Computing groups to offer a variety of workshops.
+Look for partners to collaborate on a series of reproducibility. One
+person does not and should not have to do it all! We partner with other
+library colleagues and other departments entirely at the University to
+offer guest-taught workshops in our series. For example, we collaborate
+with people like Sherry, who is not a part of Research Data Services and
+also our Health Sciences library and Research Computing groups to offer
+a variety of workshops.
 
-We all have various levels of technical expertise. Some technical experience is definitely helpful but you don't have to be a data scientist to teach in this area. Half of our series was conceptual. I (Jenn) considers herself a beginner in R, but that is enough to "see" the value in tools or features that might be overlooked or not formally taught. Not all these tools require a strong statistical/data science/programming background in order to teach them.
-
+We all have various levels of technical expertise. Some technical
+experience is definitely helpful but you don't have to be a data
+scientist to teach in this area. Half of our series was conceptual. I
+(Jenn) considers herself a beginner in R, but that is enough to "see"
+the value in tools or features that might be overlooked or not formally
+taught. Not all these tools require a strong statistical/data
+science/programming background in order to teach them.
 :::
 
+## Resources we like
 
-##
-<center>
-  <h1 style="font-size:75px">Resources we like</h1>
-  <div>
-  
-    Version Control
-      - Git Command Line Basics
-      
-    Data Management
-      - Data Management vs FAIR
-      - Carnegie Mellon's Data Librarian 'DataScapes'
-      
-  </div>
-</center>
+-   Version Control
 
+    -   Git Command Line Basics
 
-##
-<center>
-  <h1 style="font-size:75px">Feedback/Assessment</h1>
-  <div>
-  
-    - track attendance 
-    - post workshop follow up
-    
-  </div>
-</center>
+-   Data Management
+
+    -   Data Management vs FAIR
+    -   Carnegie Mellon's Data Librarian 'DataScapes'
+
+-   Sherry's reference [@higman2019]
+
+## Feedback and Assessment
+
+-   Track attendance
+-   Post workshop follow up
 
 ::: {.notes}
-Graduate students are our target audience and most common attendee type. But we also have a number of post-docs, faculty, staff, undergraduates, and community members. 
+Graduate students are our target audience and most common attendee type.
+But we also have a number of post-docs, faculty, staff, undergraduates,
+and community members.
 
-In the pre-covid times we held in-person workshops and attendance has traditionally been high. During the pandemic last year, we taught our workshops online with good attendance. This semester, the university is pushing hard to go "back to normal" so we have been offering our workshops in person again. Attendance has been low and we feel it is probably just too soon for the full in-person workshops again. 
+In the pre-covid times we held in-person workshops and attendance has
+traditionally been high. During the pandemic last year, we taught our
+workshops online with good attendance. This semester, the university is
+pushing hard to go "back to normal" so we have been offering our
+workshops in person again. Attendance has been low and we feel it is
+probably just too soon for the full in-person workshops again.
 :::
 
-##
-<center>
-  <h1 style="font-size:75px">Looking Forward</h1>
-  <div>
-    What to include here?
-  </div>
-</center>
+## Looking Forward
+
+-   What to include here?
 
 ::: {.notes}
-I (Jenn) would consider trying to take this to specific departments, reach out to DGS’s (director of graduate studies) perhaps?  Find seminar series where this might fit in?  PhD+ series.  Find Reproducibility champions who want their grad students to learn these concepts? 
+I (Jenn) would consider trying to take this to specific departments,
+reach out to DGS's (director of graduate studies) perhaps? Find seminar
+series where this might fit in? PhD+ series. Find Reproducibility
+champions who want their grad students to learn these concepts?
 :::
 
-##
-<center>
-  <h1 style="font-size:75px">More Resources</h1>
-  <div>
-  
-    Our Workshop materials are available at OSF
-      - https://osf.io/ws3u2
-      
-  </div>
-</center>
+## More Resources
 
-##
-<center>
-  <h1 style="font-size:75px">References</h1>
-  <div>
-  
-Higman, Rosie, Daniel Bangert, and Sarah Jones. 2019. “Three Camps, One Destination: The Intersections of Research Data Management, FAIR and Open”. Insights 32 (1): 18. DOI: http://doi.org/10.1629/uksg.468
-      
-  </div>
-</center>
+Our Workshop materials are available at OSF: <https://osf.io/ws3u2>
 
-::: {.notes}
-More notest to test with
-:::
+
+## References
+
