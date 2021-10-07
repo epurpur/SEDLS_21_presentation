@@ -104,12 +104,58 @@ an existing workshop (version control), and one was a mashup of old and
 new content (RStudio/RMarkdown)
 :::
 
+# Workshop Details #
+
+## Organizing Files and Metadata for Transparent & Reproducible Research ##
+
+- Project Organization - Demonstrated & Discussed the concepts
+- Included technical and non-technical sessions: 
+  - Organizing files - directory (grouping) structure
+  - Documentation
+  - File Naming 
+
+## Sharing Your Data for Transparent and Reproducible Research ##
+
+- Why share 
+- Where to share
+  - Picking a repo
+  - Introducing FAIR principles 
+- What to share
+- How to Share 
+- List of steps for sharing
+
+::: {.notes}
+This workshop was broken down into why, where, what, how, when
+
+Why share - basically in addition to needed for transparency 
+(as if that wasn't enough to start with)
+
+Where to share
+   Picking a repo
+   Introducing FAIR principles - as way to select a repo & talk about "re-use" 
+   & how it relates to transparency.
+
+What to share - covered what can't be shared & had a list of UVa's policies 
+related to data and data protection
+
+How to Share keying in on the purpose (for our workshops at least) was sharing 
+for Transparent and reproducible research
+  Starts w/ Data Management or sharing plan - key practices, on how the DM 
+  practices - including those from practices from earlier workshop on 
+  organization - related to sharing & re-use: documentation, what materials
+  to share in addition to data - again relating to the version control
+  workshop, licenses, 
+
+Then concluded w/ a list of steps for sharing
+:::
+
 ## How you can do it
 
 -   Take our stuff!
--   Re-brand existing workshops/classes at your library
 -   Look for partners at your institution to partner with
 -   You don't need to be an expert
+-   Re-brand existing workshops/classes at your library
+
 
 ::: {.notes}
 Our data, code, and more information is openly available. Take our
@@ -117,10 +163,6 @@ stuff! We have put open licenses on all the materials we post. There is
 no need to create all the materials from scratch. The current version
 control workshop is a combination of previous workshop materials plus
 online content that someone else created.
-
-Look around for existing workshops at your library to market or re-brand
-to fit into a reproducibility theme. Are you already doing things you
-could use for this purpose?
 
 Look for partners to collaborate on a series of reproducibility. One
 person does not and should not have to do it all! We partner with other
@@ -137,7 +179,75 @@ scientist to teach in this area. Half of our series was conceptual. I
 the value in tools or features that might be overlooked or not formally
 taught. Not all these tools require a strong statistical/data
 science/programming background in order to teach them.
+
+Look around for existing workshops at your library to market or re-brand
+to fit into a reproducibility theme. Are you already doing things you
+could use for this purpose?
 :::
+
+
+## Transform Data Management Workshops ##
+
+<div class="centered">
+![Jones[@jones_open_2018]
+](images/DM_vs_FAIRSharing.png "Data Management vs FAIR"){width="800px"}
+
+</div>
+
+::: {.notes}
+SHERRY WILL Work on the wording here.
+
+But how does FAIR intersect or displace the conversation of Data Management 
+and Data Management Plans for Sharing data
+Little to no emphasis on "re-use", so what good is sharing??
+
+Research Data Management (RDM): is not a goal in itself, but a set of 
+practices to handle information collected and created during research. 
+RDM is the compilation of many small practices that make your data easier 
+to find, easier to understand, less likely to be lost, and more likely to 
+be usable during a project or ten years later
+
+FAIR principles advocate for increased findability, accessibility, 
+interoperability and reusability of research data and scholarly digital 
+objects more generally. Central to the concept of FAIR is its application 
+‘to both human-driven and machine-driven activities’
+
+But we can’t forget data management - 
+RDM is the bedrock: if data have not been properly created and managed 
+during the early stages of research, it will be very difficult to make them 
+FAIR or open. Data management enables FAIR and open sharing, while the 
+principles of FAIR and open can act as inspiration to engage researchers 
+in effective data management. By using the more appealing language of FAIR 
+and open, we can engage people in data management too.
+
+Open data, FAIR (findable, accessible, interoperable and reusable) and 
+research data management (RDM) are three overlapping but distinct concepts,
+each emphasizing different aspects of handling and sharing research data. 
+They have different strengths in terms of informing and influencing how
+research data is treated
+
+FAIR and open both focus on data sharing, ensuring content is made available 
+in ways that promote access and reuse. Data management by contrast is about 
+the stewardship of data from the point of conception onwards. It makes no 
+assumptions about access, but is essential if data are to be meaningful 
+to others.
+
+concepts of FAIR - a useful way to engage researchers and encourage good 
+data practices from the outset. It can open conversations with researchers 
+and funders in ways that dull old data management never did.
+
+Open Data practice of making underlying research data publicly available, 
+accessible and reusable with minimal restrictions. open data has increasingly
+become an expectation of funders and policymakers, often framed by the maxim 
+of ‘as open as possible, as closed as necessary’.
+
+
+RDM, FAIR and open are all important in their own right and should be viewed
+as complementary yet distinct.
+:::
+
+
+
 
 ## Resources we like
 
@@ -147,10 +257,11 @@ science/programming background in order to teach them.
 
 -   Data Management
 
-    -   Data Management vs FAIR
-    -   Carnegie Mellon's Data Librarian 'DataScapes'
+    -   Data Management vs FAIR [@higman2019]
+    -   Cool new way to talk abou Data Management concepts: Hannah Gunderman, 
+    Research Data Management Consultant, Carnegie Mellon: 'DataScapes'
+    -   Best Practices [@briney_foundational_2020]
 
--   Sherry's reference [@higman2019]
 
 ## Feedback and Assessment
 
