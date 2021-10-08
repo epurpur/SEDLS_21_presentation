@@ -38,10 +38,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## About UVA and UVA Library
 
+
+:::: {style="display: flex;"}
+
+::: {}
+
+<font size="3">
 UVA:
 
 - About 23,000 students
 - 12 Schools
+- Only the School of Data Science has a policy for open access and open data
 
 UVA Library:
 
@@ -49,56 +56,56 @@ UVA Library:
 - Research Data Services has a long-running workshop series.  
 - It is very rare for library staff to teach for-credit courses at UVA.
 
-<center>
+</font>
+
+:::
+
+::: {}
 
 ![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
 
-</center>
+:::
 
 ::: {.notes}
 JENN: 1 min (spend 1 minute here)
 
-UVA has about 17,000 undergrads and 6,000 grad students. UVA has 12
-schools.
 :::
 
 ## What We Did
 
-'Reproducible Research for Early Graduate Students' workshop series
+ A **new workshop series**: 'Reproducible Research for Early Graduate Students' 
 
-- Included technical and non-technical sessions: 
-  - Technical sessions: 
-    - Version Control with Git/Github 
-    - Reproducible Analysis and Documentation in RStudio/Rmarkdown 
-  - Non-Technical sessions: 
-    - Organize for Transparent and Reproducible Research 
-    - Sharing Your Data for Transparent and Reproducible Research
+Included 2 **technical** and 2 **non-technical** sessions: 
+
+- Technical sessions: 
+  - Version Control with Git and GitHub 
+  - Reproducible Analysis and Documentation in RStudio/Rmarkdown 
+- Non-Technical sessions: 
+  - Organize for Transparent and Reproducible Research 
+  - Sharing Your Data for Transparent and Reproducible Research
 
 ::: {.notes}
 JENN: 3 min (spend 2 minutes here)
 
-UVA Library's Research Data Services (RDS) launched a new workshop
-series called "Reproducible Research for Early Graduate Students". The
-four workshops in the series focused on both technical and non-technical
-tools for reproducible research. The overall concept was to enable
+- In Spring 2021, UVA Library's Research Data Services (RDS) launched a 
+**new workshop series** called "Reproducible Research for Early Graduate Students." The
+four workshops in the series focused on both **technical** and **non-technical tools for reproducible research**. 
+- The overall concept was to enable
 researchers to improve data use and re-use for collaborators and
 themselves, use available technical tools to create reproducible
 workflows, and more easily communicate and disseminate findings and
 data. The target audience are students in STEM departments.
+- Our technical sessions covered tools and workflows. 
+- Our non-technical sessions covered file and metadata organization and data sharing.
 
-Our technical sessions covered tools and workflow on topics such as
-version control with Git and Github and R Studio/R Markdown tools.
-
-Our non-technical sessions covered file and metadata organization and
-data sharing.
 :::
 
 ## How We Did It
 
-- We launched a mini-series as part of Research Data Service's ongoing workshop series
-- Leveraged our staff's skillset: both existing and emerging skills
-- Incorporated new and existing workshop sessions
-- Outreach: Research Data Services Newsletter, reaching out to 
+- We launched it as a **standalone mini-series** as part of Research Data Service's ongoing workshop series
+- We leveraged a relatively **varied skillset** among library staff to present these sessions. These skills were both **existing** and **emerging**.
+- Sessions were a mix of **old** and **new** workshop content
+- Outreach: Research Data Services Newsletter, reaching out to communications directors at various schools
 - Virtual (Spring 2021) and In Person (Fall 2021)
 
 ::: {.notes}
@@ -107,12 +114,13 @@ JENN: 4 min (spend 1 min here)
 Each semester, our Research Data Services group teaches a workshop
 series, taught by our staff as well as collaborators in other groups
 around the university. We offer sessions and training on technical
-topics of interest to our user community. We offer several mini-series
-within our workshop series such as this one and others including both
-the R and Python languages, Qualitative Research, Tableau, etc.
+topics of interest to our user community. There are several mini-series
+within our workshop series such as those covering R, Python, Qualitative Research, and Tableau.
+
+We are fortunate to have a lot of staff at our library with some facility in data.  We were able to pull in various librarians with different skills.
 
 Our offerings are determined by a combination of demand by our
-constituents and skills of our team members. Some of the sessions in our
+constituents and skills of our team members. Of the sessions in our
 reproducibility series (non-technical and conceptual sessions), one was
 an existing workshop (version control), and one was a mashup of old and
 new content (RStudio/R Markdown)
@@ -122,8 +130,7 @@ new content (RStudio/R Markdown)
 
 ## Organizing Files and Metadata for Transparent & Reproducible Research
 
-- Project Organization: Demonstrated & discussed the concepts
-- Included technical and non-technical sessions: 
+- Project organization: demonstrated & discussed the concepts
   - Organizing files: directory (grouping) structure
   - Documentation (e.g., READMEs)
   - File Naming 
@@ -180,6 +187,10 @@ ERICH: 7 min (spend 1 min here)
 :::
 
 ## RStudio and R Markdown
+
+- Review RStudio Projects to create a project-oriented workflow in R. 
+- Overview of R Markdown for literate programming. 
+  - Include new features of Visual R Markdown, such as citations and technical writing. 
 
 ::: {.notes}
 JENN: 8 min (spend 1 min here)
@@ -290,20 +301,24 @@ as complementary yet distinct.
 
 ## Resources To Start With
 
+<font size="3">
+
 - Practical Reproducibility
-  - Jenn will fill out
-- Organization
-  - Jenn will fill out
-- Version Control
+  - Transparent and Reproducible Social Science Research [@christensen2019]
+- Organize for Transparent and Reproducible Research
+  - Reproducible Science Curriculum: Data & Project Organization [@datacarpentry]
+  - How to Name Files [@bryan2015]
+- Version Control with Git and GitHub - ERICH!!!
   - Git Command Line Basics
-  - Erich will finalize
-- Data Management
+- Sharing Your Data for Transparent and Reproducible Research
   - Data Management vs FAIR [@higman2019]
   - Cool new way to talk about Data Management concepts: Hannah Gunderman, 
     Research Data Management Consultant, Carnegie Mellon: 'DataScapes'
   - Best Practices [@briney_foundational_2020]
-- RStudio / R Markdown
-  - Jenn will fill out
+- Reproducible Analysis and Documentation in RStudio and R Markdown
+  - Reproducible Research With R and RStudio [@gandrud2020] 
+  
+</font>
 
 :::{.notes}
 ERICH: 13 min (spend 1 min here)
@@ -333,15 +348,21 @@ probably just too soon for the full in-person workshops again.
 
 ## Looking Forward
 
--   What to include here?
+Some ideas:
+
+- Do specific outreach to departments on this kind of training
+- Find a seminar series that this could fit into 
+- Find "reproducibility champions" who want their grad student to learn these concepts
 
 ::: {.notes}
 JENN: 15 min (spend 1 min here)
 
 We would consider trying to take this to specific departments,
-reach out to DGS's (director of graduate studies) perhaps? Find seminar
-series where this might fit in? PhD+ series. Find Reproducibility
-champions who want their grad students to learn these concepts?
+reach out to DGS's (director of graduate studies) perhaps? 
+
+Find seminar series where this might fit in? PhD+ series. 
+
+Find Reproducibility champions who want their grad students to learn these concepts?
 :::
 
 ## More Resources
