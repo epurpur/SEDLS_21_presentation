@@ -1,6 +1,5 @@
 ---
-title: 'Practical Reproducibility Instruction: Teaching Reproducibility with Technical
-  and Non-Technical Tools'
+title: "Practical Reproducibility Instruction: Teaching Reproducibility with Technical and Non-Technical Tools"
 author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
@@ -33,12 +32,22 @@ knitr::opts_chunk$set(echo = FALSE)
 - Press `p` for Presenter Notes.
 - These slides are licensed as CC-BY.
 
+::: {.notes}
+0 min
+:::
 
-## About UVA
+## About UVA and UVA Library
 
--   About 23,000 students
--   12 Schools
--   ???
+UVA:
+
+- About 23,000 students
+- 12 Schools
+
+UVA Library:
+
+- Our team members come from Research Data Services and Scholarly Communications, which are teams from different units in the library.
+- Research Data Services has a long-running workshop series.  
+- It is very rare for library staff to teach for-credit courses at UVA.
 
 <center>
 
@@ -47,14 +56,13 @@ knitr::opts_chunk$set(echo = FALSE)
 </center>
 
 ::: {.notes}
+JENN: 1 min (spend 1 minute here)
+
 UVA has about 17,000 undergrads and 6,000 grad students. UVA has 12
 schools.
-
-WHAT ELSE TO INCLUDE HERE? Sherry Adding some notes to test editing Rmd
-file
 :::
 
-## What we did
+## What We Did
 
 'Reproducible Research for Early Graduate Students' workshop series
 
@@ -67,6 +75,8 @@ file
     - Sharing Your Data for Transparent and Reproducible Research
 
 ::: {.notes}
+JENN: 3 min (spend 2 minutes here)
+
 UVA Library's Research Data Services (RDS) launched a new workshop
 series called "Reproducible Research for Early Graduate Students". The
 four workshops in the series focused on both technical and non-technical
@@ -83,16 +93,20 @@ Our non-technical sessions covered file and metadata organization and
 data sharing.
 :::
 
-## How we did it
+## How We Did It
 
--   Launched mini-series as part of ongoing workshop series
--   Leveraged our staff's skillset
--   Some new, some old sessions
+- We launched a mini-series as part of Research Data Service's ongoing workshop series
+- Leveraged our staff's skillset: both existing and emerging skills
+- Incorporated new and existing workshop sessions
+- Outreach: Research Data Services Newsletter, reaching out to 
+- Virtual (Spring 2021) and In Person (Fall 2021)
 
 ::: {.notes}
+JENN: 4 min (spend 1 min here)
+
 Each semester, our Research Data Services group teaches a workshop
 series, taught by our staff as well as collaborators in other groups
-around the university. We offer sessions and trainings on technical
+around the university. We offer sessions and training on technical
 topics of interest to our user community. We offer several mini-series
 within our workshop series such as this one and others including both
 the R and Python languages, Qualitative Research, Tableau, etc.
@@ -101,20 +115,25 @@ Our offerings are determined by a combination of demand by our
 constituents and skills of our team members. Some of the sessions in our
 reproducibility series (non-technical and conceptual sessions), one was
 an existing workshop (version control), and one was a mashup of old and
-new content (RStudio/RMarkdown)
+new content (RStudio/R Markdown)
 :::
 
-# Workshop Details #
+## Workshop Details: Non-Technical Sessions
 
-## Organizing Files and Metadata for Transparent & Reproducible Research ##
+## Organizing Files and Metadata for Transparent & Reproducible Research
 
-- Project Organization - Demonstrated & Discussed the concepts
+- Project Organization: Demonstrated & discussed the concepts
 - Included technical and non-technical sessions: 
-  - Organizing files - directory (grouping) structure
-  - Documentation
+  - Organizing files: directory (grouping) structure
+  - Documentation (e.g., READMEs)
   - File Naming 
+  
+::: {.notes}
+SHERRY: 5 min (spend 1 min here)
 
-## Sharing Your Data for Transparent and Reproducible Research ##
+:::
+
+## Sharing Your Data for Transparent and Reproducible Research
 
 - Why share 
 - Where to share
@@ -125,6 +144,8 @@ new content (RStudio/RMarkdown)
 - List of steps for sharing
 
 ::: {.notes}
+SHERRY: 6 min (spend 1 min here)
+
 This workshop was broken down into why, where, what, how, when
 
 Why share - basically in addition to needed for transparency 
@@ -149,20 +170,31 @@ for Transparent and reproducible research
 Then concluded w/ a list of steps for sharing
 :::
 
-## How you can do it
+## Workshop Details: Technical Sessions
 
--   Take our stuff!
--   Look for partners at your institution to partner with
--   You don't need to be an expert
--   Re-brand existing workshops/classes at your library
-
+## Git and GitHub
 
 ::: {.notes}
-Our data, code, and more information is openly available. Take our
-stuff! We have put open licenses on all the materials we post. There is
-no need to create all the materials from scratch. The current version
-control workshop is a combination of previous workshop materials plus
-online content that someone else created.
+ERICH: 7 min (spend 1 min here)
+
+:::
+
+## RStudio and R Markdown
+
+::: {.notes}
+JENN: 8 min (spend 1 min here)
+
+:::
+
+## How You Can Do It
+
+-   Look for partners at your institution to partner with
+-   You don't need to be an expert
+-   Re-brand existing workshops and classes at your library
+-   Take our stuff!
+
+::: {.notes}
+JENN: 10 min (spend 2 min here)
 
 Look for partners to collaborate on a series of reproducibility. One
 person does not and should not have to do it all! We partner with other
@@ -183,13 +215,21 @@ science/programming background in order to teach them.
 Look around for existing workshops at your library to market or re-brand
 to fit into a reproducibility theme. Are you already doing things you
 could use for this purpose?
+
+Sherry will expand on this idea in the next slide.
+
+Our data, code, and more information is openly available. Take our
+stuff! We have put open licenses on all the materials we post. There is
+no need to create all the materials from scratch. The current version
+control workshop is a combination of previous workshop materials plus
+online content that someone else created.
 :::
 
 
-## Transform Data Management Workshops ##
+## Transform Data Management Workshops
 
 <div class="centered">
-![Jones[@jones_open_2018]
+![Jones [@jones_open_2018]
 ](images/DM_vs_FAIRSharing.png "Data Management vs FAIR"){width="800px"}
 
 </div>
@@ -197,6 +237,7 @@ could use for this purpose?
 ::: {.notes}
 SHERRY WILL Work on the wording here.
 
+SHERRY: 12 min (spend 2 min here)
 But how does FAIR intersect or displace the conversation of Data Management 
 and Data Management Plans for Sharing data
 Little to no emphasis on "re-use", so what good is sharing??
@@ -247,21 +288,28 @@ as complementary yet distinct.
 :::
 
 
+## Resources To Start With
 
-
-## Resources we like
-
--   Version Control
-
-    -   Git Command Line Basics
-
--   Data Management
-
-    -   Data Management vs FAIR [@higman2019]
-    -   Cool new way to talk abou Data Management concepts: Hannah Gunderman, 
+- Practical Reproducibility
+  - Jenn will fill out
+- Organization
+  - Jenn will fill out
+- Version Control
+  - Git Command Line Basics
+  - Erich will finalize
+- Data Management
+  - Data Management vs FAIR [@higman2019]
+  - Cool new way to talk about Data Management concepts: Hannah Gunderman, 
     Research Data Management Consultant, Carnegie Mellon: 'DataScapes'
-    -   Best Practices [@briney_foundational_2020]
+  - Best Practices [@briney_foundational_2020]
+- RStudio / R Markdown
+  - Jenn will fill out
 
+:::{.notes}
+ERICH: 13 min (spend 1 min here)
+
+Here are a few high-level resources that we like.  Our workshop slides contain more detailed references.
+:::
 
 ## Feedback and Assessment
 
@@ -269,6 +317,8 @@ as complementary yet distinct.
 -   Post workshop follow up
 
 ::: {.notes}
+ERICH: 14 min (spend 1 min here)
+
 Graduate students are our target audience and most common attendee type.
 But we also have a number of post-docs, faculty, staff, undergraduates,
 and community members.
@@ -286,7 +336,9 @@ probably just too soon for the full in-person workshops again.
 -   What to include here?
 
 ::: {.notes}
-I (Jenn) would consider trying to take this to specific departments,
+JENN: 15 min (spend 1 min here)
+
+We would consider trying to take this to specific departments,
 reach out to DGS's (director of graduate studies) perhaps? Find seminar
 series where this might fit in? PhD+ series. Find Reproducibility
 champions who want their grad students to learn these concepts?
@@ -294,8 +346,8 @@ champions who want their grad students to learn these concepts?
 
 ## More Resources
 
-Our Workshop materials are available at OSF: <https://osf.io/ws3u2>
-
+- Our Workshop materials are available at OSF: <https://osf.io/ws3u2>
+- Sherry's Zotero library
 
 ## References
 

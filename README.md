@@ -4,7 +4,7 @@ A presentation for the Southeast Data Librarians (SEDLS) 2021 Conference.
 
 ## Creators
 
-- Jenn Huck
+- Jennifer Huck
 - Sherry Lake
 - Erich Purpur
 
