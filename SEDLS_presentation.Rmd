@@ -1,5 +1,5 @@
 ---
-title: "Practical Reproducibility Instruction: Teaching Reproducibility with Technical and Non-Technical Tools"
+title: "Practical Reproducibility Instruction: <BR />Teaching Reproducibility with Technical and Non-Technical Tools"
 author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
@@ -38,17 +38,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## About UVA and UVA Library
 
+<div class="columns-2">
 
-:::: {style="display: flex;"}
-
-::: {}
-
-<font size="3">
-UVA:
+University of Virginia:
 
 - About 23,000 students
 - 12 Schools
 - Only the School of Data Science has a policy for open access and open data
+
+<center>
+
+![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
+</center>
+</div>
 
 UVA Library:
 
@@ -56,15 +58,7 @@ UVA Library:
 - Research Data Services has a long-running workshop series.  
 - It is very rare for library staff to teach for-credit courses at UVA.
 
-</font>
-
-:::
-
-::: {}
-
 ![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
-
-:::
 
 ::: {.notes}
 JENN: 1 min (spend 1 minute here)
@@ -126,7 +120,7 @@ an existing workshop (version control), and one was a mashup of old and
 new content (RStudio/R Markdown)
 :::
 
-## Workshop Details: Non-Technical Sessions
+# Workshop Details:<BR /> Non-Technical Sessions
 
 ## Organizing Files and Metadata for Transparent & Reproducible Research
 
@@ -177,7 +171,7 @@ for Transparent and reproducible research
 Then concluded w/ a list of steps for sharing
 :::
 
-## Workshop Details: Technical Sessions
+# Workshop Details: <BR />Technical Sessions
 
 ## Git and GitHub
 
@@ -312,8 +306,6 @@ as complementary yet distinct.
   - Git Command Line Basics
 - Sharing Your Data for Transparent and Reproducible Research
   - Data Management vs FAIR [@higman2019]
-  - Cool new way to talk about Data Management concepts: Hannah Gunderman, 
-    Research Data Management Consultant, Carnegie Mellon: 'DataScapes'
   - Best Practices [@briney_foundational_2020]
 - Reproducible Analysis and Documentation in RStudio and R Markdown
   - Reproducible Research With R and RStudio [@gandrud2020] 
@@ -368,7 +360,8 @@ Find Reproducibility champions who want their grad students to learn these conce
 ## More Resources
 
 - Our Workshop materials are available at OSF: <https://osf.io/ws3u2>
-- Sherry's Zotero library
+- Research Data Management Services Zotero group library: 
+<p style="font-size:70%;">https://www.zotero.org/groups/361046/research_data_management_services/library</P>
 
 ## References
 
