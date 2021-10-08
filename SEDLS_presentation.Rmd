@@ -360,6 +360,7 @@ Find Reproducibility champions who want their grad students to learn these conce
 ## More Resources
 
 - Our Workshop materials are available at OSF: <https://osf.io/ws3u2>
+  - There are considerably more references to learn more about each individual topic in the workshop slides
 - Research Data Management Services Zotero group library: 
 <p style="font-size:70%;">https://www.zotero.org/groups/361046/research_data_management_services/library</P>
 
