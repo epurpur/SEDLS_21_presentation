@@ -1,5 +1,5 @@
 ---
-title: "Practical Reproducibility Instruction: Teaching Reproducibility with Technical and Non-Technical Tools"
+title: "Practical Reproducibility Instruction: <BR />Teaching Reproducibility with Technical and Non-Technical Tools"
 author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
@@ -38,10 +38,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## About UVA and UVA Library
 
-UVA:
+<div class="columns-2">
+University of Virginia:
 
 - About 23,000 students
 - 12 Schools
+
+<center>
+
+![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
+
+</center>
+</div>
 
 UVA Library:
 
@@ -49,11 +57,7 @@ UVA Library:
 - Research Data Services has a long-running workshop series.  
 - It is very rare for library staff to teach for-credit courses at UVA.
 
-<center>
 
-![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
-
-</center>
 
 ::: {.notes}
 JENN: 1 min (spend 1 minute here)
@@ -95,7 +99,8 @@ data sharing.
 
 ## How We Did It
 
-- We launched a mini-series as part of Research Data Service's ongoing workshop series
+- We launched a mini-series as part of Research Data Service's ongoing 
+workshop series
 - Leveraged our staff's skillset: both existing and emerging skills
 - Incorporated new and existing workshop sessions
 - Outreach: Research Data Services Newsletter, reaching out to 
@@ -118,7 +123,7 @@ an existing workshop (version control), and one was a mashup of old and
 new content (RStudio/R Markdown)
 :::
 
-## Workshop Details: Non-Technical Sessions
+# Workshop Details:<BR /> Non-Technical Sessions
 
 ## Organizing Files and Metadata for Transparent & Reproducible Research
 
@@ -170,7 +175,7 @@ for Transparent and reproducible research
 Then concluded w/ a list of steps for sharing
 :::
 
-## Workshop Details: Technical Sessions
+# Workshop Details: <BR />Technical Sessions
 
 ## Git and GitHub
 
@@ -299,8 +304,6 @@ as complementary yet distinct.
   - Erich will finalize
 - Data Management
   - Data Management vs FAIR [@higman2019]
-  - Cool new way to talk about Data Management concepts: Hannah Gunderman, 
-    Research Data Management Consultant, Carnegie Mellon: 'DataScapes'
   - Best Practices [@briney_foundational_2020]
 - RStudio / R Markdown
   - Jenn will fill out
@@ -347,7 +350,8 @@ champions who want their grad students to learn these concepts?
 ## More Resources
 
 - Our Workshop materials are available at OSF: <https://osf.io/ws3u2>
-- Sherry's Zotero library
+- Research Data Management Services Zotero group library: 
+<p style="font-size:70%;">https://www.zotero.org/groups/361046/research_data_management_services/library</P>
 
 ## References
 
