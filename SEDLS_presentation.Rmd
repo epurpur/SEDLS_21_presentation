@@ -4,8 +4,8 @@ title: 'Practical Reproducibility Instruction: <BR />Teaching Reproducibility wi
 author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
-  ioslides_presentation: default
   beamer_presentation: default
+  ioslides_presentation: default
   slidy_presentation: default
 bibliography: sedls.bib
 link-citations: true
@@ -366,8 +366,9 @@ Here are a few high-level resources that we like.  Our workshop slides contain m
 ::: {.notes}
 ERICH: 14 min (spend 1 min here)
 
-Graduate students are our target audience and most common attendee type.
-But we also have a number of post-docs, faculty, staff, undergraduates,
+Graduate students are our target audience and most common attendee type but we had a lot of attendees who were post-docs and research scientists, which we did not expect.
+
+We also have a number of post-docs, faculty, staff, undergraduates,
 and community members.
 
 In the pre-covid times we held in-person workshops and attendance has
