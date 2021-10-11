@@ -134,6 +134,22 @@ new content (RStudio/R Markdown)
 ::: {.notes}
 SHERRY: 5 min (spend 1 min here)
 
+The workshop series started with the non-technical workshop: Organizing Files 
+and Metadata for Transparent & Reproducible Research
+
+In this workshop, participants were instructed on fundamental approaches on 
+creating a research compendium, which is the foundation of transparent and 
+reproducible research. 
+
+Participants learned what kinds of documents and materials they should create
+and preserve; what type of information the documents should contain; and how 
+they should be formatted and organized. Topics for this workshop included 
+organizing raw data (files), data analysis, documentation, scripts, metadata, 
+readme files, project organization, and naming conventions. 
+
+The examples were based in R, but no programming experience or experience 
+with R was required, as the information learned in the workshop could be 
+applied to any quantitative programming environment.
 :::
 
 ## Sharing Your Data for Transparent and Reproducible Research
@@ -149,28 +165,38 @@ SHERRY: 5 min (spend 1 min here)
 ::: {.notes}
 SHERRY: 6 min (spend 1 min here)
 
-This workshop was broken down into why, where, what, how, when
+The last workshop in the series was Sharing Your Data for Transparent and 
+Reproducible Research
 
-Why share - basically in addition to needed for transparency 
-(as if that wasn't enough to start with)
+This workshop covered tools and resources on 
+sharing research during a project and at the completion of a project. 
+Participants learned why, how and where to share and disseminate 
+research results per funder and journal requirements. Topics covered
+included introducing the Open Science Framework (OSF), making your 
+research data FAIR, locating repositories to disseminate research, 
+and licensing data.
 
-Where to share
-   Picking a repo
-   Introducing FAIR principles - as way to select a repo & talk about "re-use" 
-   & how it relates to transparency.
+This workshop was broken down into why, where, what, how, when to share data.
 
-What to share - covered what can't be shared & had a list of UVa's policies 
-related to data and data protection
+Starting with an overview of why share, which included among other reasons,
+the need to share for transparency. 
 
-How to Share keying in on the purpose (for our workshops at least) was sharing 
-for Transparent and reproducible research
-  Starts w/ Data Management or sharing plan - key practices, on how the DM 
-  practices - including those from practices from earlier workshop on 
-  organization - related to sharing & re-use: documentation, what materials
-  to share in addition to data - again relating to the version control
-  workshop, licenses, 
+It included - Where to share
+   How to pick a repository
+   By Introducing FAIR principles - as way to select a repo & talk about 
+   "re-use" & how it relates to transparency.
 
-Then concluded w/ a list of steps for sharing
+What to share - covered what can't be shared & included a list of UVa's 
+policies related to data collection and data protection.
+
+How to Share, including licenses - keying in on the purpose of sharing 
+for Transparent and reproducible research (for our workshops at least)
+
+This is where I related "Sharing" to a Data Management or Sharing Plan. Sharing
+  Starts w/ these - key Data Management practices, those practices from the
+  earlier workshop on organization and version control.
+
+The Sharing session concluded w/ a summation list of steps for sharing.
 :::
 
 # Workshop Details: <BR />Technical Sessions
@@ -244,8 +270,8 @@ online content that someone else created.
 ## Transform Data Management Workshops
 
 <div class="centered">
-![Jones [@jones_open_2018]
-](images/DM_vs_FAIRSharing.png "Data Management vs FAIR"){width="800px"}
+![[@jones_open_2018]
+](images/DM_vs_FAIRSharing.png "Data Management vs FAIR"){width="750px"}
 
 </div>
 
