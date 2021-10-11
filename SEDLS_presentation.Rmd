@@ -1,14 +1,16 @@
 ---
-title: "Practical Reproducibility Instruction: <BR />Teaching Reproducibility with Technical and Non-Technical Tools"
+title: 'Practical Reproducibility Instruction: <BR />Teaching Reproducibility with
+  Technical and Non-Technical Tools'
 author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
   ioslides_presentation: default
   beamer_presentation: default
-bibliography: sedls.bib  
+  slidy_presentation: default
+bibliography: sedls.bib
 link-citations: yes
-editor_options: 
-  markdown: 
+editor_options:
+  markdown:
     wrap: 72
 ---
 
@@ -173,11 +175,19 @@ Then concluded w/ a list of steps for sharing
 
 # Workshop Details: <BR />Technical Sessions
 
-## Git and GitHub
+## Version Control with Git and GitHub
+
+- Learn about version control
+- Install git and make Github account
+- Common workflow scenarios
+  - local changes
+  - push to remote repository
+  - branching/collaboration
 
 ::: {.notes}
 ERICH: 7 min (spend 1 min here)
 
+I taught the workshop on version control using Git and Github. Version control is used to manage code development individually or in a team setting. In the context of this presentation, version control is really important because it is basically a complete record of everything that has happened in your code base since the beginning of a project. We first made sure that everyone was up and running with Git and also a github account. Then we walked through common workflow scenarios. We first tracked our code changes locally. Then we pushed the to the remote Github repository. Later, we walked through collaboration scenarios using branches and pull requests. 
 :::
 
 ## RStudio and R Markdown
@@ -302,8 +312,8 @@ as complementary yet distinct.
 - Organize for Transparent and Reproducible Research
   - Reproducible Science Curriculum: Data & Project Organization [@datacarpentry]
   - How to Name Files [@bryan2015]
-- Version Control with Git and GitHub - ERICH!!!
-  - Git Command Line Basics
+- Version Control with Git and GitHub 
+  - Git Command Line Basics [https://www.youtube.com/watch?v=HVsySz-h9r4]
 - Sharing Your Data for Transparent and Reproducible Research
   - Data Management vs FAIR [@higman2019]
   - Best Practices [@briney_foundational_2020]
