@@ -8,7 +8,7 @@ output:
   beamer_presentation: default
   slidy_presentation: default
 bibliography: sedls.bib
-link-citations: yes
+link-citations: true
 editor_options:
   markdown:
     wrap: 72
@@ -60,10 +60,12 @@ UVA Library:
 - Research Data Services has a long-running workshop series.  
 - It is very rare for library staff to teach for-credit courses at UVA.
 
-![](images/UVA.png "University of Virginia's Rotunda and Lawn"){width="400px"}
-
 ::: {.notes}
 JENN: 1 min (spend 1 minute here)
+
+Welcome to our talk today about how we implemented a Reproducibility workshop series at UVA Library.  I am Jennifer Huck; I'm the Data Librarian and Acting Associate Director of Research Data Services at UVA Library.  I am joined by Sherry Lake, the Scholarly Repository Librarian, and Erich Purpur, a Science and Engineering Research Librarian. 
+
+Research Data Services workshops: R, Python, Tableau, Qualitative research software
 
 :::
 
