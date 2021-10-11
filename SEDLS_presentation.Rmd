@@ -4,8 +4,8 @@ title: 'Practical Reproducibility Instruction: <BR />Teaching Reproducibility wi
 author: "Jennifer Huck, Sherry Lake, Erich Purpur"
 date: "10/13/2021"
 output:
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
   slidy_presentation: default
 bibliography: sedls.bib
 link-citations: true
@@ -279,62 +279,52 @@ online content that created externally.
 </div>
 
 ::: {.notes}
-SHERRY WILL Work on the wording here.
 
 SHERRY: 12 min (spend 2 min here)
-But how does FAIR intersect or displace the conversation of Data Management 
-and Data Management Plans for Sharing data
-Little to no emphasis on "re-use", so what good is sharing??
+
+I want to spend a couple of minutes making a link from typical data management and sharing workshops to transparency and reproducibility.
+
+Doing research for transparency and managing data (data management) [and FAIR] are overlapping, but distinct concepts each emphasizing different aspects of handling and sharing research data.
+
+Knowing about these "differences" (and strengths) can help librarians promote good research practices. Sharing - promote access & reuse, DM is basis from the start of a project in order for sharing to be meaningful.
 
 Research Data Management (RDM): is not a goal in itself, but a set of 
 practices to handle information collected and created during research. 
 RDM is the compilation of many small practices that make your data easier 
 to find, easier to understand, less likely to be lost, and more likely to 
-be usable during a project or ten years later
+be usable during a project or ten years later. 
 
 FAIR principles advocate for increased findability, accessibility, 
 interoperability and reusability of research data and scholarly digital 
-objects more generally. Central to the concept of FAIR is its application 
-‘to both human-driven and machine-driven activities’
+objects more generally. 
 
-But we can’t forget data management - 
-RDM is the bedrock: if data have not been properly created and managed 
-during the early stages of research, it will be very difficult to make them 
-FAIR or open. Data management enables FAIR and open sharing, while the 
-principles of FAIR and open can act as inspiration to engage researchers 
-in effective data management. By using the more appealing language of FAIR 
-and open, we can engage people in data management too.
+FAIR and transparency are "noble" aspirations & useful way to engage researchers and encourage good data practices from the outset. FAIR/Reproducibility are more catchy concepts to engage researchers in DM.
 
-Open data, FAIR (findable, accessible, interoperable and reusable) and 
-research data management (RDM) are three overlapping but distinct concepts,
-each emphasizing different aspects of handling and sharing research data. 
-They have different strengths in terms of informing and influencing how
-research data is treated
+FAIR and transparency extends DM - data & research is not just managed but are FAIR and can be understood, reproducible. Data that is not "managed" cannot be successfully shared/re-used (FAIR).
 
-FAIR and open both focus on data sharing, ensuring content is made available 
+Thus... we can’t forget data management - 
+DM is needed before data can be FAIR and shared - it enables data to be created and used in a way that increases transparency helps in sharing and reuse.
+BUT.... maybe by using the more appealing language of FAIR and organizing research, we can engage researchers in data management too. Note: Jenn did not use the phrase "Data Management" at all in her workshop/title or presentation, BUT file organization, file naming, documentation are all basic DM 101.
+
+FAIR and transparency both focus on data sharing, ensuring content is made available 
 in ways that promote access and reuse. Data management by contrast is about 
 the stewardship of data from the point of conception onwards. It makes no 
 assumptions about access, but is essential if data are to be meaningful 
 to others.
 
-concepts of FAIR - a useful way to engage researchers and encourage good 
-data practices from the outset. It can open conversations with researchers 
+The way we presented the concepts of reproducible research & sneaking in DM concepts (without calling them that) and FAIR practices is a useful way to engage researchers and encourage good 
+data practices from the outset. It might open conversations with researchers 
 and funders in ways that dull old data management never did.
 
-Open Data practice of making underlying research data publicly available, 
-accessible and reusable with minimal restrictions. open data has increasingly
-become an expectation of funders and policymakers, often framed by the maxim 
-of ‘as open as possible, as closed as necessary’.
 
+Research Data Management is the foundation for sharing. Managing and sharing research data are not a high priority for researchers - choosing the right "terminology" (concepts of FAIR, organization, sharing, transparency, reproducibility) can help in the up-take of best practices for managing and sharing.
 
-RDM, FAIR and open are all important in their own right and should be viewed
-as complementary yet distinct.
 :::
 
 
 ## Resources To Start With
 
-<font size="3">
+<font size="4">
 
 - Practical Reproducibility
   - Transparent and Reproducible Social Science Research [@christensen2019]
