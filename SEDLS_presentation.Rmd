@@ -36,6 +36,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ::: {.notes}
 0 min
+
 :::
 
 ## About UVA and UVA Library
@@ -44,8 +45,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 University of Virginia:
 
-- About 23,000 students
-- 12 Schools
+- R1 university
+- 23,000 students and 12 Schools
 - Only the School of Data Science has a policy for open access and open data
 
 <center>
@@ -56,8 +57,8 @@ University of Virginia:
 
 UVA Library:
 
-- Our team members come from Research Data Services and Scholarly Communications, which are teams from different units in the library.
-- Research Data Services has a long-running workshop series.  
+- Our team members come from Scholarly Communications and Research Data Services & Social, Natural, and Engineering Sciences, which are teams from different units in the library.
+- Research Data Services has a long-running workshop series.
 - It is very rare for library staff to teach for-credit courses at UVA.
 
 ::: {.notes}
@@ -65,7 +66,17 @@ JENN: 1 min (spend 1 minute here)
 
 Welcome to our talk today about how we implemented a Reproducibility workshop series at UVA Library.  I am Jennifer Huck; I'm the Data Librarian and Acting Associate Director of Research Data Services at UVA Library.  I am joined by Sherry Lake, the Scholarly Repository Librarian, and Erich Purpur, a Science and Engineering Research Librarian. 
 
-Research Data Services workshops: R, Python, Tableau, Qualitative research software
+Here is a little about the University of Virginia:
+
+- R1 university.
+- There are about 23,000 students and there are 12 Schools.
+- Only the School of Data Science has a policy for open access and open data
+
+And some context for UVA Library:
+
+- Our team members come from Scholarly Communications and Research Data Services & Social, Natural, and Engineering Sciences, which are teams from different units in the library.
+- Research Data Services has a long-running workshop series on tools for quantitative and qualitative data analysis.
+- One thing to point out: It is very rare for library staff to teach for-credit courses at UVA. Teaching a within a workshop series like this is one of our best chances for instruction.  
 
 :::
 
@@ -75,33 +86,30 @@ Research Data Services workshops: R, Python, Tableau, Qualitative research softw
 
 Included 2 **technical** and 2 **non-technical** sessions: 
 
-- Technical sessions: 
-  - Version Control with Git and GitHub 
-  - Reproducible Analysis and Documentation in RStudio/Rmarkdown 
-- Non-Technical sessions: 
-  - Organize for Transparent and Reproducible Research 
-  - Sharing Your Data for Transparent and Reproducible Research
+- Technical sessions: tools and workflows
+- Non-Technical sessions: conceptual instruction on organization and data sharing
 
 ::: {.notes}
 JENN: 3 min (spend 2 minutes here)
 
 - In Spring 2021, UVA Library's Research Data Services (RDS) launched a 
-**new workshop series** called "Reproducible Research for Early Graduate Students." The
-four workshops in the series focused on both **technical** and **non-technical tools for reproducible research**. 
+**new workshop series** called "Reproducible Research for Early Graduate Students." 
 - The overall concept was to enable
 researchers to improve data use and re-use for collaborators and
-themselves, use available technical tools to create reproducible
-workflows, and more easily communicate and disseminate findings and
-data. The target audience are students in STEM departments.
-- Our technical sessions covered tools and workflows. 
-- Our non-technical sessions covered file and metadata organization and data sharing.
+themselves; to use available technical tools to create reproducible
+workflows; and to communicate and disseminate findings and
+data. The initial target audience was early graduate students in STEM departments.
+- The
+four workshops in the series focused on both **technical** and **non-technical tools for reproducible research**. 
+  - Our technical sessions covered tools and workflows, and 
+  - Our non-technical sessions covered file and metadata organization and data sharing.
 
 :::
 
 ## How We Did It
 
 - We launched it as a **standalone mini-series** as part of Research Data Service's ongoing workshop series
-- We leveraged a relatively **varied skillset** among library staff to present these sessions. These skills were both **existing** and **emerging**.
+- We leveraged a relatively **varied skillset** among library staff to present these sessions.
 - Sessions were a mix of **old** and **new** workshop content
 - Outreach: Research Data Services Newsletter, reaching out to communications directors at various schools
 - Virtual (Spring 2021) and In Person (Fall 2021)
@@ -109,19 +117,15 @@ data. The target audience are students in STEM departments.
 ::: {.notes}
 JENN: 4 min (spend 1 min here)
 
-Each semester, our Research Data Services group teaches a workshop
-series, taught by our staff as well as collaborators in other groups
-around the university. We offer sessions and training on technical
-topics of interest to our user community. There are several mini-series
-within our workshop series such as those covering R, Python, Qualitative Research, and Tableau.
-
-We are fortunate to have a lot of staff at our library with some facility in data.  We were able to pull in various librarians with different skills.
-
-Our offerings are determined by a combination of demand by our
-constituents and skills of our team members. Of the sessions in our
-reproducibility series (non-technical and conceptual sessions), one was
-an existing workshop (version control), and one was a mashup of old and
-new content (RStudio/R Markdown)
+- Each semester, our Research Data Services team presents an extensive suite of workshops
+ taught by our staff, as well as collaborators from other units throughout the university. We offer training on technical tools, such as R, Python, Tableau, and Dedoose.  We launched our Reproducibility series as a **standalone mini-series** within that workshop environment. 
+- We are fortunate to have a lot of staff at our library with some facility in data.  We were able to pull in  librarians with **varied skillsets**. 
+- Our sessions were a mix of old and new workshop content.  Of the sessions in our
+reproducibility series, one was
+an existing workshop, one was a mashup of old and
+new content, and two were brand new. 
+- As for Outreach, we advertised the sessions in our Research Data Services Newsletter which goes out to interested readers at UVA, and we also reached out directly to communications directors at various schools who then  send info to their students.
+- We had two presentation formats.  This Spring, we presented virtually via Zoom, and this Fall we presented in person. 
 :::
 
 # Workshop Details:<BR /> Non-Technical Sessions
@@ -221,51 +225,48 @@ I taught the workshop on version control using Git and Github. Version control i
 ## RStudio and R Markdown
 
 - Review RStudio Projects to create a project-oriented workflow in R. 
-- Overview of R Markdown for literate programming. 
-  - Include new features of Visual R Markdown, such as citations and technical writing. 
+- Overview of R Markdown for literate programming, including new features of Visual R Markdown. 
 
 ::: {.notes}
 JENN: 8 min (spend 1 min here)
+
+For this session we reviewed RStudio Projects to create a project-oriented workflow in R. We also provided an overview of R Markdown for literate programming.  This highlighted the new features of Visual R Markdown, which makes using R Markdown much easier and has some great new features like connecting RStudio to Zotero. 
 
 :::
 
 ## How You Can Do It
 
 -   Look for partners at your institution to partner with
--   You don't need to be an expert
+-   You don't need to be an expert - skills can be emerging
 -   Re-brand existing workshops and classes at your library
 -   Take our stuff!
 
 ::: {.notes}
 JENN: 10 min (spend 2 min here)
 
-Look for partners to collaborate on a series of reproducibility. One
+Here are some takeaways:
+
+- Look for partners to collaborate on a series of reproducibility. One
 person does not and should not have to do it all! We partner with other
-library colleagues and other departments entirely at the University to
-offer guest-taught workshops in our series. For example, we collaborate
-with people like Sherry, who is not a part of Research Data Services and
-also our Health Sciences library and Research Computing groups to offer
-a variety of workshops.
-
-We all have various levels of technical expertise. Some technical
+library colleagues outside of Research Data Services and units outside of the library. For example, we collaborate
+with librarians like Sherry, who is not a part of Research Data Services and
+also with our Health Sciences Library and Research Computing colleagues to offer
+a wide variety of workshops.
+- We all have various levels of technical expertise. Some technical
 experience is definitely helpful but you don't have to be a data
-scientist to teach in this area. Half of our series was conceptual. I
-(Jenn) considers herself a beginner in R, but that is enough to "see"
-the value in tools or features that might be overlooked or not formally
-taught. Not all these tools require a strong statistical/data
-science/programming background in order to teach them.
-
-Look around for existing workshops at your library to market or re-brand
-to fit into a reproducibility theme. Are you already doing things you
-could use for this purpose?
-
-Sherry will expand on this idea in the next slide.
-
-Our data, code, and more information is openly available. Take our
-stuff! We have put open licenses on all the materials we post. There is
-no need to create all the materials from scratch. The current version
+scientist to teach in this area. I
+consider my skills in R to be "emerging," but I found that that was enough for me to "see"
+the value in tools (especially in RStudio) or concepts that might be overlooked or not formally
+taught. Not all these tools require a strong statistical, data
+science, or programming background in order to teach them.
+- Look around for existing workshops at your library to market or re-brand
+to fit into a Reproducibility theme. Are you already doing things you
+could use for this purpose? Sherry will expand on this idea in the next slide.
+- Finally, all of our workshop material is openly available. Take our
+stuff! There is
+no need to create all the materials from scratch. Note that the version
 control workshop is a combination of previous workshop materials plus
-online content that someone else created.
+online content that created externally.
 :::
 
 
@@ -337,6 +338,7 @@ as complementary yet distinct.
 
 - Practical Reproducibility
   - Transparent and Reproducible Social Science Research [@christensen2019]
+  - Inspiration for a multi-part course on Reproducibility: Reproducible Research Techniques for Synthesis:  [@nationalcenterforecologicalanalysisandsynthesis]
 - Organize for Transparent and Reproducible Research
   - Reproducible Science Curriculum: Data & Project Organization [@datacarpentry]
   - How to Name Files [@bryan2015]
@@ -387,12 +389,11 @@ Some ideas:
 ::: {.notes}
 JENN: 15 min (spend 1 min here)
 
-We would consider trying to take this to specific departments,
-reach out to DGS's (director of graduate studies) perhaps? 
+- We would consider trying to take this to specific departments, by 
+reaching out to Directors of Graduate Studies.
+- We might also find other seminar series at UVA where this might fit into.
+- A final idea is to find Reproducibility champions who want their grad students to learn these concepts, and come teach a lab directly. 
 
-Find seminar series where this might fit in? PhD+ series. 
-
-Find Reproducibility champions who want their grad students to learn these concepts?
 :::
 
 ## More Resources
@@ -401,6 +402,15 @@ Find Reproducibility champions who want their grad students to learn these conce
   - There are considerably more references to learn more about each individual topic in the workshop slides
 - Research Data Management Services Zotero group library: 
 <p style="font-size:70%;">https://www.zotero.org/groups/361046/research_data_management_services/library</P>
+
+::: {.notes}
+JENN: x min (spend 0 min here)
+
+- All our workshop material can be found at OSF.
+- If you are interested in learning more about Research Data Management Services, we recommend this great Zotero library.
+
+That's it!  Thanks for coming to our talk.
+:::
 
 ## References
 
