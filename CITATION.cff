@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+  - family-names: Huck
+    given-names: Jennifer
+  - family-names: Lake
+    given-names: Sherry
+    orcid: https://orcid.org/0000-0002-5660-2970  
+  - family-names: Purpur
+    given-names: Erich
+title: "Practical Reproducibility Instruction: Teaching Reproducibility with
+  Technical and Non-Technical Tools"
+version: 1.0
+date-released: 2021-10-12
+url: "https://github.com/epurpur/SEDLS_21_presentation"
